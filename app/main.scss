@@ -1,0 +1,95 @@
+body{
+    background-color: #222531;
+}
+.header-sec{
+    padding: 20px 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background: #222531;
+    height: 90px;
+
+    & + div{
+        margin-top: 100px;
+    }
+    .logo-sec{
+        width: 50%;
+        display: inline-block;
+        img{
+            height: 25px;
+        }
+    }
+    .navbar-sec{
+        width: 50%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        a{
+            color: #585b65;
+            text-decoration: none;
+            &:focus, &:hover{
+                color: white;
+                
+            }
+        }
+    }
+}
+.about-sec{
+    h1{
+        font-size: 4em;
+        width: 450px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 75px;
+        color: white;
+        font-weight: bold;
+        span{
+            color: #55acd6;
+        }
+    }
+    img{
+        width: 600px;
+        margin: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+    p{
+        text-align: center;
+        margin: 0px;
+        color: #646c95;
+    }
+}
+.problem-sec{
+    min-height: 750px;
+    p{
+        width: 40%;
+        color: #c4c5c9;
+        margin: auto;
+        margin-top: 165px;
+        margin-bottom: 100px;
+        border-left: 4px solid #55acd6;
+        padding-left: 15px;
+    }
+    .card-sec{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 250px;
+            height: 200px;
+            margin-left: 20px;
+        }
+    }
+}
+.solution-sec{
+    min-height: 450px;
+    &>div{
+        margin: auto;
+    }
+    
+}
+.ourproduct-sec{
+    img{
+        height: 500px;
+        width: 100%;
+    }
+}
