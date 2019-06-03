@@ -4,6 +4,7 @@ import About from './components/about';
 import Problem from './components/problem';
 import Solution from './components/solution';
 import OurProduct from './components/ourproduct';
+import Blog from './components/blog';
 export default class App extends Component{
     render(){
         return(
@@ -13,6 +14,7 @@ export default class App extends Component{
             <Problem/>
             <Solution />
             <OurProduct />
+            <Blog />
         </React.Fragment>)
     }
 }

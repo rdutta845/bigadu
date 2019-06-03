@@ -5,7 +5,7 @@ body{
     padding: 20px 10px;
     position: fixed;
     top: 0px;
-    z-index: 10;
+    z-index: 100;
     width: 100%;
     background: #222531;
     height: 90px;
@@ -92,4 +92,8 @@ body{
         height: 500px;
         width: 100%;
     }
+}
+.blogs-sec{
+    color: white;
+    margin-top: 50px;
 }
